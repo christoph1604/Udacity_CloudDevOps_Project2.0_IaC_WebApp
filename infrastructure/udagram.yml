@@ -142,7 +142,7 @@ Resources:
       LaunchTemplate:
         LaunchTemplateId: !Ref WebAppLaunchTemplate
         Version: !GetAtt WebAppLaunchTemplate.LatestVersionNumber
-      # as it was explicitly requested in "Network and Servers Configuration" requirements, point 5: exactly 4 servers should be deployed; so setting MinSize/DesiredCapacity/MaxSize to 4 via parameters
+      # as it was explicitly requested in "Network and Servers Configuration" requirements, point 5: exactly 4 servers should be deployed; so setting DesiredCapacity to 4 via parameters
       # as per documentation, instances will per default be distributed equally on the specifiec subnets
       MinSize: !Ref minSizeScalingGroup
       DesiredCapacity: !Ref desiredSizeScalingGroup
