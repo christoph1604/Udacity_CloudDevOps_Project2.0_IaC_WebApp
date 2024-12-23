@@ -22,6 +22,12 @@ Auto-scaling groups, load balancer, IAM role, subnets, security groups, etc.
 - folder "misc": Helper files
 - README.MD: This file
 
+## Entry page
+When deployed, the example application "Udagram" can be accessed via the entry webpage. 
+The URL is contained in the output variable "LoadBalancerURL" of the Udagram CloudFormation stack. 
+
+Currently, it's value is: http://udacit-webap-p0l6fpmew1la-2142734151.us-east-1.elb.amazonaws.com/ 
+
 ## Spin up instructions
 Execute the following bash commands:
 ```
