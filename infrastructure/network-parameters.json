@@ -1,0 +1,26 @@
+[
+	{
+        "ParameterKey": "projectName",
+        "ParameterValue": "cd12352-project2-iac"
+    },
+    {
+        "ParameterKey": "cidrVPC",
+        "ParameterValue": "10.0.0.0/16"
+    },
+    {
+        "ParameterKey": "cidrPublicSubnet1",
+        "ParameterValue": "10.0.0.0/24"
+    },
+    {
+        "ParameterKey": "cidrPublicSubnet2",
+        "ParameterValue": "10.0.1.0/24"
+    },
+    {
+        "ParameterKey": "cidrPrivateSubnet1",
+        "ParameterValue": "10.0.2.0/24"
+    },
+    {
+        "ParameterKey": "cidrPrivateSubnet2",
+        "ParameterValue": "10.0.3.0/24"
+    }
+]

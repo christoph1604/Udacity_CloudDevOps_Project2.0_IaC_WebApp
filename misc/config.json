@@ -1,0 +1,6 @@
+{
+  "Preferences": {
+      "InstanceWarmup": 1,
+      "MinHealthyPercentage": 50
+  }
+}

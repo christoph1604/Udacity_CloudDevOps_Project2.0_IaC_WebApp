@@ -1,0 +1,22 @@
+[
+	{
+        "ParameterKey": "projectName",
+        "ParameterValue": "cd12352-project2-iac"
+    },
+    {
+        "ParameterKey": "instanceVolumeSize",
+        "ParameterValue": "10"
+    },
+    {
+        "ParameterKey": "minSizeScalingGroup",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "maxSizeScalingGroup",
+        "ParameterValue": "4"
+    },
+    {
+        "ParameterKey": "desiredSizeScalingGroup",
+        "ParameterValue": "4"
+    }
+]
